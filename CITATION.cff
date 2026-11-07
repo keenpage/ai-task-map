@@ -9,4 +9,6 @@ version: "2026-11-06"
 date-released: "2026-11-06"
 license: CC-BY-4.0
 url: "https://keenpage.com/en/ai-task-map"
+doi: 10.5281/zenodo.24035962
+repository-code: "https://github.com/keenpage/ai-task-map"
 keywords: [occupations, generative AI, future of work, labor market]
