@@ -1,11 +1,3 @@
----
-license: cc-by-4.0
-language: [en, zh]
-pretty_name: KeenPage AI Task Map by Occupation
-size_categories: [1K<n<10K]
-tags: [occupations, labor-market, future-of-work, generative-ai]
----
-
 # KeenPage AI Task Map by Occupation
 
 How much of the everyday work in 2,000 occupations can AI help with? This dataset summarizes 25,000 work tasks across 38 industries, one row per occupation.
