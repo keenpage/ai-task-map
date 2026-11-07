@@ -14,6 +14,7 @@ How much of the everyday work in 2,000 occupations can AI help with? This datase
 - Chinese report: https://keenpage.com/zh/ai-task-map
 - Version: 2026-11-06
 - DOI: [10.5281/zenodo.24035962](https://doi.org/10.5281/zenodo.24035962) (all versions; this version: 10.5281/zenodo.24035963)
+- Mirrors: [Hugging Face](https://huggingface.co/datasets/keenpage-ai/ai-task-map) · [Kaggle](https://www.kaggle.com/datasets/keenpage/keenpage-ai-task-map) · [GitHub](https://github.com/keenpage/ai-task-map)
 - License: CC BY 4.0 (this data file only)
 
 ## Headline figures
