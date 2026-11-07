@@ -1,0 +1,24 @@
+{
+  "title": "KeenPage AI Task Map by Occupation",
+  "upload_type": "dataset",
+  "description": "How much of the everyday work in 2,000 occupations can AI help with? 25,000 tasks across 38 industries, one row per occupation. Model-assisted estimates, not survey results.",
+  "creators": [
+    {
+      "name": "KeenPage"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "occupations",
+    "generative AI",
+    "future of work",
+    "labor market"
+  ],
+  "version": "2026-11-06",
+  "related_identifiers": [
+    {
+      "identifier": "https://keenpage.com/en/ai-task-map",
+      "relation": "isDocumentedBy"
+    }
+  ]
+}
