@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: "KeenPage"
     website: "https://keenpage.com"
-version: "2026-11-09"
+version: "2026-11-09.1"
 date-released: "2026-11-09"
 license: CC-BY-4.0
 url: "https://keenpage.com/en/ai-task-map"

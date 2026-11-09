@@ -1,6 +1,6 @@
 # Data dictionary
 
-One row per occupation. **`official_duties_covered_pct` is the headline measure.** Version 2026-11-09 changed the columns: see "Changes from version 2026-11-06" below.
+One row per occupation. **`official_duties_covered_pct` is the headline measure.** Version 2026-11-09 changed the columns: see "Changes from version 2026-11-06" below. Version 2026-11-09.1 corrects `official_tasks_covered` and `official_duties_covered_pct` only: see "Correction in 2026-11-09.1".
 
 | Column | Type | Meaning |
 |---|---|---|
@@ -8,11 +8,11 @@ One row per occupation. **`official_duties_covered_pct` is the headline measure.
 | occupation_zh | text | Occupation name in Chinese |
 | industry_en | text | KeenPage industry group in English |
 | industry_zh | text | KeenPage industry group in Chinese |
-| **official_duties_covered_pct** | integer, 0 to 100, or empty | **Headline.** Share of the occupation's official task statements that at least one listed task helps with. Equals `official_tasks_covered / official_tasks`. Empty when the occupation has no official task statements or fewer than 5. |
+| **official_duties_covered_pct** | integer, 0 to 100, or empty | **Headline.** Share of the occupation's official task statements that at least one task on the occupation's page (its own tasks or the shared common tasks it lists) helps with. Equals `official_tasks_covered / official_tasks`. Empty when the occupation has no official task statements or fewer than 5. |
 | official_tasks | integer or empty | Number of official task statements used as the denominator (up to 30, minus statements recorded as belonging to a neighbouring occupation) |
-| official_tasks_covered | integer or empty | Number of those statements cited by at least one listed task |
+| official_tasks_covered | integer or empty | Number of those statements cited by at least one of the occupation's own tasks or the shared common tasks listed on its page |
 | official_task_source | text or empty | Where the statements come from: `onet` (US O\*NET 31.0), `osca` (Australia OSCA 2024), `uksoc2020` (UK SOC 2020), `noc2021` (Canada NOC 2021) |
-| tasks | integer | Number of tasks AI can help with listed for this occupation |
+| tasks | integer | Number of tasks AI can help with on this occupation's own list (shared common tasks are not counted) |
 | weekly_ai_tasks | integer | Number of listed tasks that come up at least weekly |
 | weekly_or_more_pct | integer, 0 to 100 | Share of the listed tasks that come up at least weekly |
 | for_others_pct | integer, 0 to 100 | Share of the listed tasks whose result goes to someone else |
@@ -20,6 +20,10 @@ One row per occupation. **`official_duties_covered_pct` is the headline measure.
 | url_en | URL | The occupation's page on KeenPage |
 
 Percentages are rounded to whole numbers (halves round up). Occupations with no task list yet are not included. Industry figures for `official_duties_covered_pct` are the mean over the industry's scored occupations. See `METHODOLOGY.md`.
+
+## Correction in 2026-11-09.1
+
+The first 2026-11-09 release counted, in `official_tasks_covered`, only statements cited by the occupation's own tasks. Statements cited by the shared common tasks listed on the occupation's page now count too. `official_tasks_covered` changes in 966 rows and `official_duties_covered_pct` in 960 of the 1,523 scored rows (average 45% → 54%); all other columns are unchanged.
 
 ## Changes from version 2026-11-06
 
