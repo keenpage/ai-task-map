@@ -1,7 +1,7 @@
 {
   "title": "KeenPage AI Task Map by Occupation",
   "upload_type": "dataset",
-  "description": "How much of the everyday work in 2,000 occupations can AI help with? 25,000 tasks across 38 industries, checked against the duties listed for each job in official occupation data, one row per occupation. Headline: official duties covered (54% in the average occupation). Version 2026-11-09.1 corrects the first 2026-11-09 release, which left the official duties cited by shared common tasks out of the numerator (45%). Model-assisted estimates, not survey results.",
+  "description": "How much of the everyday work in 2,000 occupations can AI help with? 25,138 tasks across 38 industries, checked against the duties listed for each job in official occupation data, one row per occupation. Headline: official duties covered (61% in the average occupation, 1,492 occupations scored). Version 2026-11-10 adds 1,642 missing citations and 137 new tasks after a two-model review of uncovered official duties, and leaves out of the denominator 746 duties that both models judged to belong to another occupation (2026-11-09.1: 54%). Model-assisted estimates, not survey results.",
   "creators": [
     {
       "name": "KeenPage"
@@ -14,7 +14,7 @@
     "future of work",
     "labor market"
   ],
-  "version": "2026-11-09.1",
+  "version": "2026-11-10",
   "related_identifiers": [
     {
       "identifier": "https://keenpage.com/en/ai-task-map",
