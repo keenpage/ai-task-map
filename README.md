@@ -5,7 +5,7 @@ How much of the everyday work in 2,000 occupations can AI help with? This datase
 - Report: https://keenpage.com/en/ai-task-map
 - Chinese report: https://keenpage.com/zh/ai-task-map
 - Version: 2026-11-10 (see "What's new")
-- DOI: [10.5281/zenodo.24035962](https://doi.org/10.5281/zenodo.24035962) (all versions)
+- DOI: [10.5281/zenodo.24035962](https://doi.org/10.5281/zenodo.24035962) (all versions) · this version: [10.5281/zenodo.24095490](https://doi.org/10.5281/zenodo.24095490)
 - Mirrors: [Hugging Face](https://huggingface.co/datasets/keenpage-ai/ai-task-map) · [Kaggle](https://www.kaggle.com/datasets/keenpage/keenpage-ai-task-map) · [GitHub](https://github.com/keenpage/ai-task-map)
 - License: CC BY 4.0 (this data file only)
 
@@ -50,7 +50,7 @@ These figures are **model-assisted estimates, not survey or measurement results*
 
 ## Citation
 
-KeenPage. AI Task Map by Occupation (version 2026-11-10). https://keenpage.com/en/ai-task-map. DOI: 10.5281/zenodo.24035962
+KeenPage. AI Task Map by Occupation (version 2026-11-10). https://keenpage.com/en/ai-task-map. DOI: 10.5281/zenodo.24095490 (this version) or 10.5281/zenodo.24035962 (all versions)
 
 See `CITATION.cff`. Please credit KeenPage and link to the report.
 
@@ -69,6 +69,6 @@ KeenPage's compilation and calculated figures in this CSV are licensed under [CC
 数字是模型辅助的估计，不是调查或实测结果；覆盖说的是 AI 帮得上的范围，不代表一个职业有多少工作能被 AI 替代。旧主指标“成果基本能直接用”只在清单内部算，2026-11-09 版起已不作主指标，改名为 `ready_to_use_pct`，只描述帮法，不用来排名。
 
 报告：https://keenpage.com/zh/ai-task-map
-DOI：10.5281/zenodo.24035962
+DOI：10.5281/zenodo.24035962（所有版本），本版 10.5281/zenodo.24095490
 
 职页汇编和计算的数字按 CC BY 4.0 开放，请注明“职页 KeenPage”并链接到报告。许可只覆盖这个文件，工作清单、提示词卡和站内其他内容不在开放范围内；职业名称等第三方内容仍按各自条款使用，见 `SOURCES.md`。
